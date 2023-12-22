@@ -1,0 +1,36 @@
+/* includes alternating gray and white with on-hover color */
+
+.mystyle {
+    text-align: center;
+    font-size: 11pt; 
+    font-family: Courier;
+    border-collapse: collapse; 
+    border: 1px solid silver;
+
+}
+
+.mystyle caption {
+    font: bold 15pt Verdana;
+}
+
+.mystyle td, th {
+    padding: 5px;
+}
+
+.mystyle th {
+    font-family: Verdana
+}
+
+.mystyle td {
+    font-family: Courier
+
+}
+
+.mystyle tr:nth-child(even) {
+    background: #E0E0E0;
+}
+
+.mystyle tr:hover {
+    background: silver;
+    cursor: pointer;
+}
